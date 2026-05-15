@@ -191,7 +191,7 @@ span {
   animation: words 20s infinite;
 }
 .text-animation span::after {
-  content: "Help Desk Technician";
+  content: "";
   background-color: var(--bg-color);
   position: absolute;
   width: calc(100% + 8px);
@@ -216,15 +216,16 @@ span {
   }
   41%,
   60% {
-    content: "Network Support Technician";
+    content: "OnBase Support Assistant";
   }
   61%,
   80% {
-    content: "IT Operations Assistant";
+    content: "Document Management System (DMS) Operator
+";
   }
   81%,
   100% {
-    content: "Junior Data Management Assistant";
+    content: "Document Control Assistant";
   }
 }
 @keyframes typing {
