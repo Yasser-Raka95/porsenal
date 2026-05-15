@@ -186,12 +186,12 @@ span {
   position: relative;
 }
 .text-animation span::before {
-  content: "web Developer";
+  content: "IT Support Specialist";
   color: var(--main-color);
   animation: words 20s infinite;
 }
 .text-animation span::after {
-  content: "";
+  content: "Help Desk Technician";
   background-color: var(--bg-color);
   position: absolute;
   width: calc(100% + 8px);
@@ -208,23 +208,23 @@ span {
 @keyframes words {
   0%,
   20% {
-    content: "Frontend Designer";
+    content: "Desktop Support Technician";
   }
   21%,
   40% {
-    content: "Web Designer";
+    content: "Computer Maintenance Technician";
   }
   41%,
   60% {
-    content: "UI/UX Designer";
+    content: "Network Support Technician";
   }
   61%,
   80% {
-    content: "Web Developer";
+    content: "IT Operations Assistant";
   }
   81%,
   100% {
-    content: "Software Tester";
+    content: "Junior Data Management Assistant";
   }
 }
 @keyframes typing {
